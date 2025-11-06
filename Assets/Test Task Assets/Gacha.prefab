@@ -87,6 +87,7 @@ GameObject:
   - component: {fileID: 1562932159914308313}
   - component: {fileID: 6683330641984885365}
   - component: {fileID: -55908948797837241}
+  - component: {fileID: 6339566776346256456}
   m_Layer: 5
   m_Name: Gacha
   m_TagString: Untagged
@@ -191,8 +192,27 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 0
+  m_Interactable: 1
   m_TargetGraphic: {fileID: 6683330641984885365}
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &6339566776346256456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3107301056304164342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df8c885163aa5ac4e8d0675fa052a09f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemImage: {fileID: 6683330641984885365}
+  sellButton: {fileID: -55908948797837241}
+  metalSprite: {fileID: 21300000, guid: 039c7f1828ada4848815aa17edb44670, type: 3}
+  bronzeSprite: {fileID: 21300000, guid: cf383450898b2b44f922645dbbcf3427, type: 3}
+  silverSprite: {fileID: 21300000, guid: f20d12412f874c846803fdc379b408f5, type: 3}
+  goldSprite: {fileID: 21300000, guid: fe7a6637c623a464d9ac4b1c90daafae, type: 3}
+  diamondSprite: {fileID: 21300000, guid: 665b51c52ac98da4aaf5d224001d7268, type: 3}
